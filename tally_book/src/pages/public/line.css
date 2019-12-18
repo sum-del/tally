@@ -1,0 +1,14 @@
+.gline {
+  height: 70px;
+  line-height: 70px;
+  margin: 0 20px;
+  border-bottom: 1px solid #f7f7f7; }
+  .gline .left {
+    float: left; }
+  .gline .right {
+    float: right; }
+    .gline .right input {
+      width: 100%;
+      text-align: right; }
+
+/*# sourceMappingURL=line.css.map */

@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  border: 0; }
+
+.bgimg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("../../../img/b2.jpeg");
+  background-size: 150%; }
+  .bgimg .login {
+    opacity: 0.8;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 300px;
+    left: 50%;
+    margin-left: -150px;
+    text-align: center; }
+    .bgimg .login h2 {
+      font-size: 30px;
+      font-weight: normal;
+      color: #fff; }
+    .bgimg .login .input {
+      margin-top: 10px;
+      margin-right: 18px; }
+      .bgimg .login .input .contents {
+        width: 60px;
+        height: 100%;
+        display: block;
+        line-height: 40px;
+        float: left;
+        color: #3c76d8; }
+    .bgimg .login .input:nth-of-type(2) {
+      position: relative; }
+    .bgimg .login .code {
+      position: absolute;
+      right: 10px;
+      top: 3px;
+      border-radius: 5px; }
+      .bgimg .login .code img {
+        width: 70px;
+        height: 40px; }
+    .bgimg .login .check {
+      margin-top: 15px;
+      margin-left: 40px; }
+      .bgimg .login .check button {
+        border: none;
+        background: none;
+        outline: none;
+        width: 100px;
+        background: #ff6482;
+        height: 35px;
+        border-radius: 5px;
+        margin: 0 10px;
+        color: #ffffff; }
+    .bgimg .login .forget {
+      margin-top: 20px;
+      text-align: right;
+      padding-right: 24px;
+      font-size: 12px;
+      color: #3c76d8; }
+
+/*# sourceMappingURL=login.css.map */

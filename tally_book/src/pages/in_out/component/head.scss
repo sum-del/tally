@@ -1,0 +1,27 @@
+
+.title{
+  overflow: hidden;
+  border-bottom: 1px  solid #F2F2F2;
+  background: #ffffff;
+  .t1,.t2{
+    width: 50%;
+    height: 60px;
+    line-height: 60px;
+    float: left;
+    text-align: center;
+  }
+  .t1 span{
+    width: 50%;
+    display: block;
+    float: right;
+  }
+  .t2 span{
+    width: 50%;
+    display: block;
+    float: left;
+  }
+  .tt{
+    border-bottom: 2px solid #0086b3;
+    color: #0086b3;
+  }
+}

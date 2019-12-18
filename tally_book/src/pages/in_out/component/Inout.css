@@ -1,0 +1,126 @@
+.Inout .top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100; }
+.Inout .head {
+  background: #6CC9D8;
+  width: 100%;
+  height: 70px; }
+  .Inout .head h2 {
+    margin: 0px;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: normal; }
+  .Inout .head .hl {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    font-size: 1.2em;
+    color: #fff; }
+    .Inout .head .hl span:first-child {
+      font-size: 20px;
+      margin-right: 10px; }
+.Inout .title {
+  overflow: hidden;
+  border-bottom: 1px  solid #F2F2F2;
+  background: #ffffff; }
+  .Inout .title .t1, .Inout .title .t2 {
+    width: 50%;
+    height: 60px;
+    line-height: 60px;
+    float: left;
+    text-align: center; }
+  .Inout .title .t1 span {
+    width: 50%;
+    display: block;
+    float: right; }
+  .Inout .title .t2 span {
+    width: 50%;
+    display: block;
+    float: left; }
+  .Inout .title .tt {
+    border-bottom: 2px solid #0086b3;
+    color: #0086b3; }
+.Inout .In, .Inout .Out {
+  margin-top: 130px; }
+.Inout .detail {
+  overflow: hidden;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 20px;
+  border-top: 1px solid #F2F2F2; }
+  .Inout .detail .img {
+    float: left;
+    width: 62%; }
+    .Inout .detail .img .detail_img {
+      display: block;
+      float: left;
+      width: 40px;
+      height: 40px;
+      text-align: center;
+      line-height: 40px;
+      border-radius: 100%;
+      background: #f2f2f2;
+      margin-top: 10px;
+      margin-right: 15px; }
+  .Inout .detail .num {
+    position: relative;
+    float: right;
+    width: 120px;
+    text-align: right; }
+    .Inout .detail .num .fix {
+      display: none;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 120px;
+      height: 100%;
+      z-index: 90;
+      background: #ffffff;
+      text-align: center; }
+      .Inout .detail .num .fix .del, .Inout .detail .num .fix .edit {
+        margin-top: 10px;
+        float: left;
+        width: 45%;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 8px; }
+      .Inout .detail .num .fix .del {
+        background: #ff6482;
+        color: #ffffff; }
+      .Inout .detail .num .fix .edit {
+        float: right;
+        background: #0081FF;
+        color: #ffffff; }
+.Inout .bottom {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 60px;
+  background: #F2F2F2; }
+  .Inout .bottom .center {
+    padding: 10px;
+    padding-top: 13px;
+    overflow: hidden; }
+    .Inout .bottom .center a {
+      display: block;
+      width: 160px;
+      height: 35px;
+      text-align: center;
+      float: left;
+      line-height: 35px;
+      border-radius: 8px;
+      border: 1px solid #D7D7D7;
+      color: #D7D7D7; }
+      .Inout .bottom .center a span:first-child {
+        margin-right: 5px; }
+    .Inout .bottom .center a:last-child {
+      margin-left: 30px;
+      border: 1px solid #0086b3;
+      color: #0086b3; }
+
+/*# sourceMappingURL=Inout.css.map */

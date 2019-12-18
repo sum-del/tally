@@ -1,0 +1,23 @@
+.foot{
+  position: fixed;
+  bottom: 0;
+  width:100%;
+  padding: 0 15px;
+  .bl,.br{
+    display: block;
+    width: 48%;
+    height: 40px;
+    line-height: 40px;
+    margin: 10px 0 ;
+    border: 1px solid #0086b3;
+    color: #0086b3;
+    border-radius: 8px;
+    text-align: center;
+  }
+  .bl{
+    float: left;
+  }
+  .br{
+    float: right;
+  }
+}

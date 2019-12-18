@@ -1,0 +1,118 @@
+ul{
+  margin: 0;
+  padding: 0;
+}
+.person_center{
+  width: 100%;
+  position: absolute;
+  padding-bottom: 76px;
+  .head{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background-image: url(../../../img/b2.jpeg)  ;
+    background-size: 100%;
+    .avatar{
+      padding-top: 75px;
+      img{
+        border-radius: 100%;
+        width: 150px;
+        height: 150px;
+      }
+    }
+    .username{
+      color:#ff6482;
+      font-size: 25px;
+    }
+  }
+  .body{
+    .record{
+      overflow: hidden;
+      padding: 15px 0;
+      li{
+        width: 33%;
+        list-style: none;
+        float: left;
+        text-align: center;
+        .text{
+          margin-top: 10px;
+          color: #8799A3;
+        }
+      }
+      li:nth-of-type(2){
+        border-left:1px solid #8799A3;
+        border-right: 1px solid #8799A3;
+      }
+      .num1{
+        color: #F37B1D;
+      }
+      .num2{
+        color: #0081FF;
+      }
+      .num3{
+        color: #39B54A;
+      }
+    }
+    .b_space{
+      background: #F2F2F2;
+      height: 20px;
+    }
+    .line{
+      height: 50px;
+      line-height: 50px;
+      padding:0 15px ;
+      overflow: hidden;
+      border-top: 1px solid #f2f2f2;
+      .line_l{
+        float: left;
+        .t1{
+          margin-left: 10px;
+          font-size: 18px;
+          color: #8799A3;
+        }
+      }
+      .line_r{
+        float: right;
+        .t2{
+          margin-left: 10px;
+          font-size: 18px;
+          color: #8799A3;
+        }
+      }
+      .icon1{
+        font-size: 18px;
+        color: #0086b3;
+      }
+      .icon2{
+        margin-left: 20px;
+        font-size: 20px;
+        color: #8799A3;
+      }
+    }
+    .line:nth-of-type(2),.line:nth-of-type(3),.line:nth-of-type(6){
+        .t2{
+          width: 60px;
+          height: 30px;
+          line-height: 30px;
+          border-radius: 20px;
+          margin-top: 10px;
+          text-align: center;
+          display: block;
+          float: left;
+        }
+    }
+    .line:nth-of-type(2){
+      .t2{
+        color: #E03997;
+        background: #F9D7EA;
+      }
+    }
+    .line:nth-of-type(3),.line:nth-of-type(6){
+      .t2{
+        color: #F37B1D;
+        background: #FDE6D2;
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+.upimage{
+  .input{
+    margin-left: 20px;
+    border-bottom: 1px solid #d9d9d9;
+    .c1{
+      margin-right: 50px;
+      width: 100px;
+      height: 50px;
+      line-height: 50px;
+      display: block;
+      text-align: center;
+      float: left;
+      font-size: 20px;
+    }
+    .upfile{
+      span{
+        font-size: 65px;
+        font-weight: 80;
+        color: #999;
+      }
+      position: relative;
+      display: block;
+      overflow: hidden;
+      background: #fafafa;
+      width: 100px;
+      margin: 5px 0;
+      height: 100px;
+      text-align: center;
+      line-height: 70px;
+      border-radius: 5px;
+      color: #fff;
+      border: 1px dashed #d9d9d9;
+      input{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        padding: 0;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        -ms-filter: 'alpha(opacity=0)';
+      }
+      img{
+        margin-top: 3px;
+      }
+    }
+  }
+}

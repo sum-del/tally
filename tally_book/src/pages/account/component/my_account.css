@@ -1,0 +1,15 @@
+.paper table tr td:nth-of-type(3) a:first-child {
+  margin-left: 5px;
+  padding: 3px;
+  border-radius: 10px;
+  margin-right: 2px;
+  color: #1890ff;
+  border: 1px solid #1890ff; }
+.paper table tr td:nth-of-type(3) span {
+  padding: 3px;
+  border-radius: 10px;
+  margin-left: 2px;
+  color: #ff6482;
+  border: 1px solid #ff6482; }
+
+/*# sourceMappingURL=my_account.css.map */

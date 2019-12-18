@@ -1,0 +1,25 @@
+.In, .Out {
+  margin-top: 130px; }
+  .In .control, .Out .control {
+    width: 75px;
+    line-height: 50px;
+    float: left;
+    text-align: center;
+    list-style: none;
+    padding: 12px;
+    color: #222222; }
+  .In li .t1, .Out li .t1 {
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 100%;
+    background: #f2f2f2; }
+  .In li .b1, .Out li .b1 {
+    height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
+
+/*# sourceMappingURL=inout.css.map */

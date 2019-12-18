@@ -1,0 +1,38 @@
+.upimg{
+  .input{
+    .contents{
+      width: 60px;
+      height: 100%;
+      display: block;
+      line-height: 40px;
+      float: left;
+    }
+    .c1{
+      margin-right: 17px;
+    }
+    .upfile{
+      float: right;
+      position: relative;
+      display: block;
+      overflow: hidden;
+      background: #ff6482;
+      width: 68px;
+      margin: 5px 0;
+      height: 38px;
+      text-align: center;
+      line-height: 38px;
+      border-radius: 8px;
+      color: #fff;
+      margin-right: 20px;
+      input{
+        width: 100%;
+        position: absolute;
+        padding: 0;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        -ms-filter: 'alpha(opacity=0)';
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.changetel input {
+  direction: ltr !important; }
+.changetel .input:nth-of-type(1) {
+  position: relative; }
+  .changetel .input:nth-of-type(1) input {
+    padding-right: 100px !important; }
+.changetel .input:nth-of-type(2) {
+  position: relative; }
+  .changetel .input:nth-of-type(2) input {
+    padding-right: 100px !important; }
+.changetel .send {
+  font-size: 12px;
+  width: 65px;
+  height: 36px;
+  margin: 3px 0;
+  position: absolute;
+  right: 10px;
+  top: 0px;
+  line-height: 36px;
+  background: #ff6482;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center; }
+.changetel .code {
+  position: absolute;
+  right: 10px;
+  top: 3px;
+  border-radius: 5px; }
+  .changetel .code img {
+    width: 70px;
+    height: 40px; }
+
+/*# sourceMappingURL=changetel.css.map */

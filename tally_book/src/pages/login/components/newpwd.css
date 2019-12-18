@@ -1,0 +1,65 @@
+.bgimg .newpwd {
+  opacity: 0.8;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 300px;
+  margin: 0 37px;
+  text-align: center; }
+  .bgimg .newpwd h2 {
+    font-size: 30px;
+    font-weight: normal;
+    color: #fff; }
+  .bgimg .newpwd .input {
+    margin-top: 10px;
+    margin-right: 18px; }
+    .bgimg .newpwd .input .contents {
+      width: 60px;
+      height: 100%;
+      display: block;
+      line-height: 40px;
+      float: left;
+      color: #3c76d8; }
+  .bgimg .newpwd .input:nth-of-type(1) {
+    position: relative; }
+  .bgimg .newpwd .input:nth-of-type(2) {
+    position: relative; }
+  .bgimg .newpwd .send {
+    font-size: 12px;
+    width: 70px;
+    height: 40px;
+    position: absolute;
+    right: 10px;
+    top: 3px;
+    line-height: 40px;
+    background: #ff6482;
+    border-radius: 5px;
+    color: #fff; }
+  .bgimg .newpwd .code {
+    position: absolute;
+    right: 10px;
+    top: 3px;
+    border-radius: 5px; }
+    .bgimg .newpwd .code img {
+      width: 70px;
+      height: 40px; }
+  .bgimg .newpwd .submit button {
+    border: none;
+    background: none;
+    outline: none;
+    width: 210px;
+    background: #4680d8;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #ffffff; }
+  .bgimg .newpwd .forget {
+    margin-top: 20px;
+    text-align: right;
+    padding-right: 24px;
+    font-size: 12px;
+    color: #3c76d8; }
+
+/*# sourceMappingURL=newpwd.css.map */

@@ -1,0 +1,44 @@
+.paper table {
+  width: 100%;
+  text-align: left;
+  border-radius: 4px 4px 0 0;
+  border-collapse: separate;
+  border-spacing: 0; }
+  .paper table tbody .null td {
+    font-size: 50px;
+    text-align: center;
+    border-bottom: none; }
+    .paper table tbody .null td span {
+      display: block;
+      font-size: 15px;
+      margin-bottom: 10px; }
+  .paper table tr th:first-child {
+    border-top-left-radius: 4px; }
+  .paper table tr th, .paper table tr td {
+    padding: 16px 25px;
+    overflow-wrap: break-word; }
+  .paper table tr th {
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 500;
+    text-align: left;
+    background: #fafafa;
+    border-bottom: 1px solid #e8e8e8; }
+  .paper table tr td {
+    border-bottom: 1px solid #e8e8e8;
+    -webkit-transition: all .3s,border 0s;
+    transition: all .3s,border 0s; }
+  .paper table tr .action span {
+    padding: 3px;
+    border-radius: 10px;
+    margin-left: 2px;
+    color: #ff6482;
+    border: 1px solid #ff6482; }
+  .paper table tr .action a {
+    margin-left: 5px;
+    padding: 3px;
+    border-radius: 10px;
+    margin-right: 2px;
+    color: #1890ff;
+    border: 1px solid #1890ff; }
+
+/*# sourceMappingURL=paper.css.map */

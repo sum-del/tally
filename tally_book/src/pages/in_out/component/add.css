@@ -1,0 +1,30 @@
+.addtype .body {
+  width: 100%;
+  position: absolute;
+  background: #fff; }
+  .addtype .body .txt {
+    background: #fff; }
+  .addtype .body .input {
+    margin-left: 20px;
+    overflow: hidden;
+    border-bottom: 1px solid #f2f2f2; }
+    .addtype .body .input .contents {
+      width: 60px;
+      height: 100%;
+      display: block;
+      line-height: 40px;
+      float: left; }
+    .addtype .body .input input {
+      padding: 0;
+      padding-right: 20px;
+      width: 290px;
+      padding-left: 20px; }
+    .addtype .body .input .select {
+      width: 146px; }
+    .addtype .body .input div, .addtype .body .input .select {
+      float: right; }
+
+.am-list-item .am-list-line .am-list-extra {
+  flex-basis: 100%; }
+
+/*# sourceMappingURL=add.css.map */

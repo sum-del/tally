@@ -1,0 +1,39 @@
+.top{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+.allhead{
+  background: #6CC9D8;
+  width: 100%;
+  height: 70px;
+  justify-content:space-around;
+  display: flex;
+  align-items:center;
+  padding: 15px;
+  a{
+    display: block;
+  }
+  .center{
+    text-align: center;
+    font-size: 1.5em;
+    color: #fff;
+    font-weight:normal;
+  }
+  .flex{
+    flex: 1;
+  }
+  .left{
+    font-size: 1.3em;
+    color: #fff;
+    span{
+      font-size: 18px;
+    }
+  }
+  .right{
+    color: #fff;
+    font-size: 1.3em;
+    text-align: right;
+  }
+}

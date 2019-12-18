@@ -1,0 +1,89 @@
+ul {
+  margin: 0;
+  padding: 0; }
+
+.person_center {
+  width: 100%;
+  position: absolute;
+  padding-bottom: 76px; }
+  .person_center .head {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background-image: url(../../../img/b2.jpeg);
+    background-size: 100%; }
+    .person_center .head .avatar {
+      padding-top: 75px; }
+      .person_center .head .avatar img {
+        border-radius: 100%;
+        width: 150px;
+        height: 150px; }
+    .person_center .head .username {
+      color: #ff6482;
+      font-size: 25px; }
+  .person_center .body .record {
+    overflow: hidden;
+    padding: 15px 0; }
+    .person_center .body .record li {
+      width: 33%;
+      list-style: none;
+      float: left;
+      text-align: center; }
+      .person_center .body .record li .text {
+        margin-top: 10px;
+        color: #8799A3; }
+    .person_center .body .record li:nth-of-type(2) {
+      border-left: 1px solid #8799A3;
+      border-right: 1px solid #8799A3; }
+    .person_center .body .record .num1 {
+      color: #F37B1D; }
+    .person_center .body .record .num2 {
+      color: #0081FF; }
+    .person_center .body .record .num3 {
+      color: #39B54A; }
+  .person_center .body .b_space {
+    background: #F2F2F2;
+    height: 20px; }
+  .person_center .body .line {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 15px;
+    overflow: hidden;
+    border-top: 1px solid #f2f2f2; }
+    .person_center .body .line .line_l {
+      float: left; }
+      .person_center .body .line .line_l .t1 {
+        margin-left: 10px;
+        font-size: 18px;
+        color: #8799A3; }
+    .person_center .body .line .line_r {
+      float: right; }
+      .person_center .body .line .line_r .t2 {
+        margin-left: 10px;
+        font-size: 18px;
+        color: #8799A3; }
+    .person_center .body .line .icon1 {
+      font-size: 18px;
+      color: #0086b3; }
+    .person_center .body .line .icon2 {
+      margin-left: 20px;
+      font-size: 20px;
+      color: #8799A3; }
+  .person_center .body .line:nth-of-type(2) .t2, .person_center .body .line:nth-of-type(3) .t2, .person_center .body .line:nth-of-type(6) .t2 {
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 20px;
+    margin-top: 10px;
+    text-align: center;
+    display: block;
+    float: left; }
+  .person_center .body .line:nth-of-type(2) .t2 {
+    color: #E03997;
+    background: #F9D7EA; }
+  .person_center .body .line:nth-of-type(3) .t2, .person_center .body .line:nth-of-type(6) .t2 {
+    color: #F37B1D;
+    background: #FDE6D2; }
+
+/*# sourceMappingURL=my.css.map */
